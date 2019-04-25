@@ -2,6 +2,7 @@ header img {
 	width: 97%;
 }
 body {
+	overflow-x: hidden;
 	width: 1440px;
 	margin: auto;
 	
