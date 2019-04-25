@@ -7,6 +7,17 @@ body {
 	
 }
 
+footer {
+	background-color: #b2b5ba;
+	height: 100px;
+	text-align: center;
+}
+
+footer span {
+	font-family: sans-serif;
+	color: gray;
+}
+
 hr {
 	border: 5px solid gray;
 	border-radius: 10px;
@@ -30,6 +41,10 @@ hr {
 
 .menu {
 	float: left;
+	border: 2px solid cyan;
+	border-radius: 30px;
+	background-color: #02fcb9;
+	height: 400px;
 }
 
 .menu img {
@@ -41,11 +56,20 @@ hr {
 	list-style: none;
 }
 
+.menu ul li:hover {
+	background-color: #0da57c;
+}
+
 .menu ul li a {
 	text-decoration: none;
-	color: black;
+	color: white;
 	text-transform: uppercase;
 }
+
+.menu ul li a:hover {
+	color: black;
+}
+
 
 /*NEWS*/
 
@@ -67,7 +91,7 @@ hr {
 
 .news article div {
 	width: 180px;
-	height: 100px;
+	height: 200px;
 	margin: auto;
 }
 
@@ -80,4 +104,33 @@ hr {
 	height: 100px;
 }
 
+/*IMAGE AND VIDEO*/
+.string {
+	margin: 20px;
+	height: 300px;
+	width: 1350px;
+	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
 
+.string img {
+	width: 200px;
+	height: auto;
+	float: left;
+	margin-right: 50px;
+	margin-left: 20px;
+}
+
+.string video {
+	width: 40%;
+	height: auto;
+	margin-left: 75px;
+}
+
+#video {
+	 transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+}
