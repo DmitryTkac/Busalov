@@ -12,7 +12,8 @@
 	<div class="meklesana">
 		<form>
 			<input type="text" value="meklet">
-			<a href="#"><img src="image/search_icon.png" alt="search"></a>		
+			<a href="#"><img src="image/search_icon.png" alt="search"></a>
+		
 		</form>
 	</div>
 	<div class="menu">
@@ -35,20 +36,23 @@
 			</li>
 		</ul>
 	</div>
-	
+	<div class="feedback">
 
-	
-	<section id="box">
-	<div class="video_gll">
-		<video src="video/kuroko_1.mp4" controls poster="image/poster.jpg" ></video>
-		<video src="video/kuroko_2.mp4" controls poster="image/poster.jpg" ></video>
-		<video src="video/kuroko_3.mp4" controls poster="image/poster.jpg" ></video>
-		<video src="video/kuroko_4.mp4" controls poster="image/poster.jpg" ></video>
-		<video src="video/kuroko_5.mp4" controls poster="image/poster.jpg" ></video>
-		<video src="video/kuroko_6.mp4" controls poster="image/poster.jpg" ></video>
+		<form action="" method="post" name="test" id="form" onsubmit="valid(this)">
+			<img src="image/feedback.png" alt="feedback image">
+
+	        <input size="35" type="text" name="Name" placeholder="Write your name" id="name"/><br />
+
+		    <input size="35" type="email" name="email" placeholder="Write your email" id="email"/><br />
+	    
+	        <input size="35" type="text" name="subject" placeholder="Write your subject" id="subject"/><br />
+	        
+	        <textarea cols=38 rows=10 placeholder="Write your text" name="message" id="message"></textarea><br />
+
+	        <input type="submit" onclick="valid(this)" name="submit" value="submit"/>
+	    </form>
 	</div>
-	</section>
-	
+
 	<hr>
 
 	<footer>
