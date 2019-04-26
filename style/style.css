@@ -135,3 +135,39 @@ hr {
     -webkit-transform:rotateY(180deg); /* Safari and Chrome */
     -moz-transform:rotateY(180deg); /* Firefox */
 }
+
+/* VIDEO GLL */
+.video_gll {
+	height: 1000px;
+}
+
+.video_gll video {
+	margin: 30px;
+	width: 300px;
+	height: auto;
+}
+
+
+/*PHOTO GLL*/
+#box {
+	height: 1500px;
+	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+	margin-top: 20px;
+	margin-left: 230px;
+	width: 1200px;
+}
+
+.photo_gll {
+	display: flex;
+	height: 800px;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.photo_gll img {
+	width: 300px;
+	max-width: 300px
+	padding: 10px;
+	margin: 30px;	
+}
