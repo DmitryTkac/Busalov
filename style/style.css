@@ -106,6 +106,7 @@ hr {
 }
 
 /*IMAGE AND VIDEO*/
+
 .string {
 	margin: 20px;
 	height: 300px;
@@ -137,6 +138,7 @@ hr {
 }
 
 /* VIDEO GLL */
+
 .video_gll {
 	height: 1000px;
 }
@@ -245,4 +247,57 @@ hr {
 	margin-top: 40px;
 	margin-bottom: 40px;
 	padding-bottom: 300px;
+}
+
+/*MEDIA*/
+@media screen and (max-width: 600px) {
+	.menu {
+		float: none;
+		width: 200px;
+		margin: auto;
+		background-color: black;	
+	}
+	
+	.news {
+		height: 1600px;
+		margin-left: 480px;
+	}
+
+	.news article{
+		width: 400px;
+		height: 460px;
+		font-size: 26pt;
+	}
+
+	.news article div {
+		width: 300px;
+	}
+
+	.news article div span {
+		font-size: 20pt;
+	}
+
+	.news article img {
+		width: 400px;
+		height: 200px;
+	}
+
+	.string {
+		display: flex;
+		flex-direction: column;
+		width: 400px;
+		margin: auto;
+		height: auto;
+	}
+
+	.string img {
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.string video {
+		width: 350px;
+		margin: auto;
+		margin-top: 50px;
+	}
 }
