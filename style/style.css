@@ -270,12 +270,28 @@ hr {
 		float: none;
 		width: 200px;
 		margin: auto;
-		background-color: black;	
+		background-color: white;
+		margin-top: 20px;
+		padding-left: 100px;
+		padding-right: 100px;	
+	}
+	
+	.menu ul {
+		display: inline;
+		text-align: center;
+
+	}
+
+	.menu ul li a {
+		color: black;
+		font-size: 16pt;
 	}
 	
 	.news {
+		width: 600px;
 		height: 1600px;
-		
+		margin: auto;
+		margin-left: 60px;
 	}
 
 	.news article{
