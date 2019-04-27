@@ -212,3 +212,37 @@ hr {
 	font-family: sans-serif;
 	font-size: 18pt;
 }
+
+/*CONTACTS*/
+.contacts div{
+	width: 700px;
+	margin: auto;
+	margin-top: 30px;
+	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+	height: 700px;
+	font-family: sans-serif;
+}
+
+.contacts div div {
+	width: 300px;
+	margin-left: 110px;
+	box-shadow: none;
+	height: auto;
+	float: left;
+}
+
+.contacts article {
+	width: 500px;
+	font-family: sans-serif;
+	margin: auto;
+	padding: 30px;
+}
+
+#googleMap {
+	width: 50%;
+	height: 30px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-bottom: 300px;
+}

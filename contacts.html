@@ -23,7 +23,7 @@
 				<a href="index.html">Jaunumi</a>
 			</li>
 			<li>
-				<a href="feedback.html">Par Mums</a>
+				<a href="feedback.html">Atsauksmes</a>
 			</li>
 			<li>
 				<a href="contacts.html">Kontakti</a>
@@ -36,71 +36,29 @@
 			</li>
 		</ul>
 	</div>
-	<div class="news">
-		<article>
-			<img src="image/news_1.jpg" alt="news 1">
-			<div class="news_text">
-				NEWS #1 <br>
-				<span>On deck walk off field pull foul line sabremetrics third base left fielder. </span>
-			</div>
-		</article>
-		<article>
-			<img src="image/news_2.png" alt="news 2">
-			<div class="news_text">
-				NEWS #2 <br>
-				<span>Rake doubleheader dribbler breaking ball run cy young on deck run batted in skipper. </span>
-			</div>
-		</article>
-		<article>
-			<img src="image/news_3.jfif" alt="news 3">
-			<div class="news_text">
-				NEWS #3 <br>
-				<span>Mustard reliever appeal stadium center field ground ball fair.</span>
-			</div>
-		</article>
-	</div>
 	
-	<hr>	
-	
-	<div class="string">
-		<img src="image/ad_1.jpg" alt="advertisement_1">
-		<img src="image/ad_2.jpg" alt="advertisement_2">
-		<img src="image/ad_4.jpg" alt="advertisement_4">
-		<img src="image/ad_3.jpg" alt="advertisement_3">
-		<img src="image/ad_5.jpg" alt="advertisement_5">
+	<div>
+		<div class="contacts">
+			<div>
+				<article>
+					Petey ground rule double interleague earned run pickoff dodgers plunked designated hitter. Bases loaded knuckleball first baseman strike zone rookie fall classic center field moneyball. 
+				</article>
+				<article>
+					Cardinals fall classic skipper leather glove, base blue shift. Field batter's box sacrifice fly shortstop save knuckleball passed ball. Inning rip center fielder first baseman sidearm passed ball out nubber. Sweep outside rope cheese dodgers bush league save.
+				</article>
+				<div>
+					<p>Nosaukums: SIA "BUSALOV SPORT"</p>
+					<p>Tel: (+371) 213012323</p>
+					<p>E-Mail: Busalov@BusalovSport</p><br>
+					<p>Adrese: Krišjāņa Valdemāra iela 10</p>
+				</div>
+				<img src="image/sport_avatar.jpg" alt="The Trainer">
+			</div>
+		</div>
 	</div>
 
-	<hr>
-	
-	<div class="news">
-		<article>
-			<img src="image/news_1.jpg" alt="news 1">
-			<div class="news_text">
-				NEWS #4 <br>
-				<span> Grounder walk off outside cup of coffee astroturf range count hot dog on deck. </span>
-			</div>
-		</article>
-		<article>
-			<img src="image/news_2.png" alt="news 2">
-			<div class="news_text">
-				NEWS #5 <br>
-				<span>Tigers swing grand slam left fielder double play small ball manager rake.</span>
-			</div>
-		</article>
-		<article>
-			<img src="image/news_3.jfif" alt="news 3">
-			<div class="news_text">
-				NEWS #6 <br>
-				<span>Dodgers sport nubber tigers designated hitter, diamond away sport cycle.</span>
-			</div>
-		</article>
-	</div>
 
-	<hr>
-	
-	<div class="string">
-		<video src="video/kuroko_5.mp4" controls poster="image/poster.jpg"></video>
-		<video src="video/kuroko_1.mp4" controls poster="image/poster.jpg"></video>
+	<div id="googleMap">
 		
 	</div>
 
@@ -113,6 +71,18 @@
 	</footer>
 
 	<hr>
+
+	<script>
+		function myMap() {
+			var mapProp= {
+	 			center:new google.maps.LatLng(56.9565523,24.112142),
+  				zoom:17,  				
+			};
+			var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByCXYwxVsVdG_ffIfFWFtI1orl16imZyA&callback=myMap"></script>
 
 </body>
 </html>
