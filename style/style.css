@@ -252,8 +252,18 @@ hr {
 /*MEDIA*/
 @media screen and (max-width: 600px) {
 
-	header img {
-		width: 50%;
+	body {
+		width: 600px;
+		margin: auto;
+	}
+
+	header {
+		width: 600px;
+		margin: auto;
+	}
+
+	hr {
+		width: 500px;
 	}
 
 	.menu {
@@ -265,7 +275,7 @@ hr {
 	
 	.news {
 		height: 1600px;
-		margin-left: 480px;
+		
 	}
 
 	.news article{
